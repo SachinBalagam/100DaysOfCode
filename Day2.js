@@ -14,4 +14,20 @@ function averageOfArray(array) {
 }
 
 let result = averageOfArray(arrays)
-console.log(result)
+// console.log(result)
+
+//12.Create a function that receives an array of numbers and returns an array containing only the positive numbers
+
+let arrays2 = [-5, 10, -3, 12, -9, 5, 90, 0, 1];
+
+function filterArray(array) {
+  let filteredArray = []
+  for (let i = 0; i < array.length; i++) {
+    if (array[i] >= 0) {
+      filteredArray.push(array[i])
+    }
+  }
+  console.log(filteredArray)
+}
+
+
