@@ -97,5 +97,5 @@ function SumOfArray(array) {
   console.log(sum)
 }
 
-SumOfArray(arrays)
+// --------------------- End of DAY 1 ---------------------------
 
